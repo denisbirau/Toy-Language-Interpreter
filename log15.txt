@@ -1,0 +1,497 @@
+>>Program State(Id:1):
+Execution Stack:
+(bool b; (int c; (b=true; (c=b?100:200; (print(c); (c=false?100:200; print(c)))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+bool b
+(int c; (b=true; (c=b?100:200; (print(c); (c=false?100:200; print(c))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+bool b
+(int c; (b=true; (c=b?100:200; (print(c); (c=false?100:200; print(c))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(int c; (b=true; (c=b?100:200; (print(c); (c=false?100:200; print(c))))))
+Symbol Tables:
+b->false
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(int c; (b=true; (c=b?100:200; (print(c); (c=false?100:200; print(c))))))
+Symbol Tables:
+b->false
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+int c
+(b=true; (c=b?100:200; (print(c); (c=false?100:200; print(c)))))
+Symbol Tables:
+b->false
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+int c
+(b=true; (c=b?100:200; (print(c); (c=false?100:200; print(c)))))
+Symbol Tables:
+b->false
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(b=true; (c=b?100:200; (print(c); (c=false?100:200; print(c)))))
+Symbol Tables:
+b->false
+c->0
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(b=true; (c=b?100:200; (print(c); (c=false?100:200; print(c)))))
+Symbol Tables:
+b->false
+c->0
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+b=true
+(c=b?100:200; (print(c); (c=false?100:200; print(c))))
+Symbol Tables:
+b->false
+c->0
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+b=true
+(c=b?100:200; (print(c); (c=false?100:200; print(c))))
+Symbol Tables:
+b->false
+c->0
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(c=b?100:200; (print(c); (c=false?100:200; print(c))))
+Symbol Tables:
+b->true
+c->0
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(c=b?100:200; (print(c); (c=false?100:200; print(c))))
+Symbol Tables:
+b->true
+c->0
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+c=b?100:200
+(print(c); (c=false?100:200; print(c)))
+Symbol Tables:
+b->true
+c->0
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+c=b?100:200
+(print(c); (c=false?100:200; print(c)))
+Symbol Tables:
+b->true
+c->0
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+if (b) then (c=100) else (c=200)
+(print(c); (c=false?100:200; print(c)))
+Symbol Tables:
+b->true
+c->0
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+if (b) then (c=100) else (c=200)
+(print(c); (c=false?100:200; print(c)))
+Symbol Tables:
+b->true
+c->0
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+c=100
+(print(c); (c=false?100:200; print(c)))
+Symbol Tables:
+b->true
+c->0
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+c=100
+(print(c); (c=false?100:200; print(c)))
+Symbol Tables:
+b->true
+c->0
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(print(c); (c=false?100:200; print(c)))
+Symbol Tables:
+b->true
+c->100
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(print(c); (c=false?100:200; print(c)))
+Symbol Tables:
+b->true
+c->100
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+print(c)
+(c=false?100:200; print(c))
+Symbol Tables:
+b->true
+c->100
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+print(c)
+(c=false?100:200; print(c))
+Symbol Tables:
+b->true
+c->100
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(c=false?100:200; print(c))
+Symbol Tables:
+b->true
+c->100
+
+Output:
+100
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(c=false?100:200; print(c))
+Symbol Tables:
+b->true
+c->100
+
+Output:
+100
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+c=false?100:200
+print(c)
+Symbol Tables:
+b->true
+c->100
+
+Output:
+100
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+c=false?100:200
+print(c)
+Symbol Tables:
+b->true
+c->100
+
+Output:
+100
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+if (false) then (c=100) else (c=200)
+print(c)
+Symbol Tables:
+b->true
+c->100
+
+Output:
+100
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+if (false) then (c=100) else (c=200)
+print(c)
+Symbol Tables:
+b->true
+c->100
+
+Output:
+100
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+c=200
+print(c)
+Symbol Tables:
+b->true
+c->100
+
+Output:
+100
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+c=200
+print(c)
+Symbol Tables:
+b->true
+c->100
+
+Output:
+100
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+print(c)
+Symbol Tables:
+b->true
+c->200
+
+Output:
+100
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+print(c)
+Symbol Tables:
+b->true
+c->200
+
+Output:
+100
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+Symbol Tables:
+b->true
+c->200
+
+Output:
+100
+200
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))

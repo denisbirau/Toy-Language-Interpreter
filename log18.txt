@@ -1,0 +1,7380 @@
+>>Program State(Id:1):
+Execution Stack:
+(Ref int v1; (int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+Ref int v1
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+Ref int v1
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+int cnt
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+int cnt
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+new(v1, 1)
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+new(v1, 1)
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+createSemaphore(cnt, readHeap(v1))
+(fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+createSemaphore(cnt, readHeap(v1))
+(fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt)))))
+(fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt)))))
+(fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))))
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))))
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+overwrite(v1, v1*10)
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+overwrite(v1, v1*10)
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+print(readHeap(v1))
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+print(readHeap(v1))
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+(Ref int v1; (int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+Ref int v1
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+Ref int v1
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+int cnt
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+int cnt
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+new(v1, 1)
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+new(v1, 1)
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+createSemaphore(cnt, readHeap(v1))
+(fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+createSemaphore(cnt, readHeap(v1))
+(fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt)))))
+(fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt)))))
+(fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))))
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))))
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(overwrite(v1, v1*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+overwrite(v1, v1*10)
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+overwrite(v1, v1*10)
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+print(readHeap(v1))
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+print(readHeap(v1))
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, v1*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+1
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+(Ref int v1; (int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+Ref int v1
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+Ref int v1
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+int cnt
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+int cnt
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+new(v1, 1)
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+new(v1, 1)
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+createSemaphore(cnt, readHeap(v1))
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+createSemaphore(cnt, readHeap(v1))
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt)))))
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt)))))
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))))
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))))
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+overwrite(v1, readHeap(v1)*10)
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+overwrite(v1, readHeap(v1)*10)
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+print(readHeap(v1))
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+print(readHeap(v1))
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+(Ref int v1; (int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+Ref int v1
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+Ref int v1
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(int cnt; (new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+int cnt
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+int cnt
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(new(v1, 1); (createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+new(v1, 1)
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+new(v1, 1)
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(createSemaphore(cnt, readHeap(v1)); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+createSemaphore(cnt, readHeap(v1))
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+createSemaphore(cnt, readHeap(v1))
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->0
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))); (fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt)))))
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt)))))
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))); (acquire(cnt); (print(readHeap(v1)-1); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))))
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+fork((acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))))
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:2):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[]
+
+>>Program State(Id:1):
+Execution Stack:
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+(acquire(cnt); (print(readHeap(v1)-1); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(overwrite(v1, readHeap(v1)*10); (print(readHeap(v1)); release(cnt)))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+(acquire(cnt); (overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt)))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+overwrite(v1, readHeap(v1)*10)
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+overwrite(v1, readHeap(v1)*10)
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->1
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+(print(readHeap(v1)); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+print(readHeap(v1))
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+print(readHeap(v1))
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+release(cnt)
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:2):
+Execution Stack:
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:1):
+Execution Stack:
+acquire(cnt)
+(print(readHeap(v1)-1); release(cnt))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+
+>>Program State(Id:3):
+Execution Stack:
+acquire(cnt)
+(overwrite(v1, readHeap(v1)*10); (overwrite(v1, readHeap(v1)*2); (print(readHeap(v1)); release(cnt))))
+Symbol Tables:
+cnt->1
+v1->(1: int)
+
+Output:
+10
+File Table:
+Heap:
+1->10
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))Semaphore Table:
+1->1=[2]
+

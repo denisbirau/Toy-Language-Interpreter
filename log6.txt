@@ -1,0 +1,241 @@
+>>Program State(Id:1):
+Execution Stack:
+(Ref int v; (new(v, 20); (Ref Ref int a; (new(a, v); (print(readHeap(v)); print(readHeap(readHeap(a))+5))))))
+Symbol Table:
+Output:
+File Table:
+Heap:
+
+>>Program State(Id:1):
+Execution Stack:
+Ref int v
+(new(v, 20); (Ref Ref int a; (new(a, v); (print(readHeap(v)); print(readHeap(readHeap(a))+5)))))
+Symbol Table:
+Output:
+File Table:
+Heap:
+
+>>Program State(Id:1):
+Execution Stack:
+Ref int v
+(new(v, 20); (Ref Ref int a; (new(a, v); (print(readHeap(v)); print(readHeap(readHeap(a))+5)))))
+Symbol Table:
+Output:
+File Table:
+Heap:
+
+>>Program State(Id:1):
+Execution Stack:
+(new(v, 20); (Ref Ref int a; (new(a, v); (print(readHeap(v)); print(readHeap(readHeap(a))+5)))))
+Symbol Table:
+v->(0: int)
+Output:
+File Table:
+Heap:
+
+>>Program State(Id:1):
+Execution Stack:
+(new(v, 20); (Ref Ref int a; (new(a, v); (print(readHeap(v)); print(readHeap(readHeap(a))+5)))))
+Symbol Table:
+v->(0: int)
+Output:
+File Table:
+Heap:
+
+>>Program State(Id:1):
+Execution Stack:
+new(v, 20)
+(Ref Ref int a; (new(a, v); (print(readHeap(v)); print(readHeap(readHeap(a))+5))))
+Symbol Table:
+v->(0: int)
+Output:
+File Table:
+Heap:
+
+>>Program State(Id:1):
+Execution Stack:
+new(v, 20)
+(Ref Ref int a; (new(a, v); (print(readHeap(v)); print(readHeap(readHeap(a))+5))))
+Symbol Table:
+v->(0: int)
+Output:
+File Table:
+Heap:
+
+>>Program State(Id:1):
+Execution Stack:
+(Ref Ref int a; (new(a, v); (print(readHeap(v)); print(readHeap(readHeap(a))+5))))
+Symbol Table:
+v->(1: int)
+Output:
+File Table:
+Heap:
+1->20
+
+>>Program State(Id:1):
+Execution Stack:
+(Ref Ref int a; (new(a, v); (print(readHeap(v)); print(readHeap(readHeap(a))+5))))
+Symbol Table:
+v->(1: int)
+Output:
+File Table:
+Heap:
+1->20
+
+>>Program State(Id:1):
+Execution Stack:
+Ref Ref int a
+(new(a, v); (print(readHeap(v)); print(readHeap(readHeap(a))+5)))
+Symbol Table:
+v->(1: int)
+Output:
+File Table:
+Heap:
+1->20
+
+>>Program State(Id:1):
+Execution Stack:
+Ref Ref int a
+(new(a, v); (print(readHeap(v)); print(readHeap(readHeap(a))+5)))
+Symbol Table:
+v->(1: int)
+Output:
+File Table:
+Heap:
+1->20
+
+>>Program State(Id:1):
+Execution Stack:
+(new(a, v); (print(readHeap(v)); print(readHeap(readHeap(a))+5)))
+Symbol Table:
+a->(0: Ref int)
+v->(1: int)
+Output:
+File Table:
+Heap:
+1->20
+
+>>Program State(Id:1):
+Execution Stack:
+(new(a, v); (print(readHeap(v)); print(readHeap(readHeap(a))+5)))
+Symbol Table:
+a->(0: Ref int)
+v->(1: int)
+Output:
+File Table:
+Heap:
+1->20
+
+>>Program State(Id:1):
+Execution Stack:
+new(a, v)
+(print(readHeap(v)); print(readHeap(readHeap(a))+5))
+Symbol Table:
+a->(0: Ref int)
+v->(1: int)
+Output:
+File Table:
+Heap:
+1->20
+
+>>Program State(Id:1):
+Execution Stack:
+new(a, v)
+(print(readHeap(v)); print(readHeap(readHeap(a))+5))
+Symbol Table:
+a->(0: Ref int)
+v->(1: int)
+Output:
+File Table:
+Heap:
+1->20
+
+>>Program State(Id:1):
+Execution Stack:
+(print(readHeap(v)); print(readHeap(readHeap(a))+5))
+Symbol Table:
+a->(2: Ref int)
+v->(1: int)
+Output:
+File Table:
+Heap:
+1->20
+2->(1: int)
+
+>>Program State(Id:1):
+Execution Stack:
+(print(readHeap(v)); print(readHeap(readHeap(a))+5))
+Symbol Table:
+a->(2: Ref int)
+v->(1: int)
+Output:
+File Table:
+Heap:
+1->20
+2->(1: int)
+
+>>Program State(Id:1):
+Execution Stack:
+print(readHeap(v))
+print(readHeap(readHeap(a))+5)
+Symbol Table:
+a->(2: Ref int)
+v->(1: int)
+Output:
+File Table:
+Heap:
+1->20
+2->(1: int)
+
+>>Program State(Id:1):
+Execution Stack:
+print(readHeap(v))
+print(readHeap(readHeap(a))+5)
+Symbol Table:
+a->(2: Ref int)
+v->(1: int)
+Output:
+File Table:
+Heap:
+1->20
+2->(1: int)
+
+>>Program State(Id:1):
+Execution Stack:
+print(readHeap(readHeap(a))+5)
+Symbol Table:
+a->(2: Ref int)
+v->(1: int)
+Output:
+20
+File Table:
+Heap:
+1->20
+2->(1: int)
+
+>>Program State(Id:1):
+Execution Stack:
+print(readHeap(readHeap(a))+5)
+Symbol Table:
+a->(2: Ref int)
+v->(1: int)
+Output:
+20
+File Table:
+Heap:
+1->20
+2->(1: int)
+
+>>Program State(Id:1):
+Execution Stack:
+Symbol Table:
+a->(2: Ref int)
+v->(1: int)
+Output:
+20
+25
+File Table:
+Heap:
+1->20
+2->(1: int)
+

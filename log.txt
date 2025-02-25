@@ -1,0 +1,32 @@
+>>Program State(Id:1):
+Execution Stack:
+(int v; (v=false; print(v)))
+Symbol Table:
+Output:
+File Table:
+Heap:
+
+>>Program State(Id:1):
+Execution Stack:
+(int v; (v=false; print(v)))
+Symbol Table:
+Output:
+File Table:
+Heap:
+
+>>Program State(Id:1):
+Execution Stack:
+(int v; (v=false; print(v)))
+Symbol Table:
+Output:
+File Table:
+Heap:
+
+>>Program State(Id:1):
+Execution Stack:
+(int v; (v=false; print(v)))
+Symbol Table:
+Output:
+File Table:
+Heap:
+

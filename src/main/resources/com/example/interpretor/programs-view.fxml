@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER_LEFT" prefHeight="330.0" prefWidth="428.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interpretor.ProgramsViewController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Label text="Choose a program from below:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <ListView fx:id="programsListView" prefHeight="334.0" prefWidth="459.0" />
+   </children>
+</VBox>

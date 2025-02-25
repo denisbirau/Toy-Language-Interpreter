@@ -1,0 +1,1145 @@
+>>Program State(Id:1):
+Execution Stack:
+(Ref int a; (new(a, 20); (for(v=0;v<3;v=v+1) { fork((print(v); v=v*readHeap(a))) }; print(readHeap(a)))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+Ref int a
+(new(a, 20); (for(v=0;v<3;v=v+1) { fork((print(v); v=v*readHeap(a))) }; print(readHeap(a))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+Ref int a
+(new(a, 20); (for(v=0;v<3;v=v+1) { fork((print(v); v=v*readHeap(a))) }; print(readHeap(a))))
+Symbol Tables:
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(new(a, 20); (for(v=0;v<3;v=v+1) { fork((print(v); v=v*readHeap(a))) }; print(readHeap(a))))
+Symbol Tables:
+a->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(new(a, 20); (for(v=0;v<3;v=v+1) { fork((print(v); v=v*readHeap(a))) }; print(readHeap(a))))
+Symbol Tables:
+a->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+new(a, 20)
+(for(v=0;v<3;v=v+1) { fork((print(v); v=v*readHeap(a))) }; print(readHeap(a)))
+Symbol Tables:
+a->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+new(a, 20)
+(for(v=0;v<3;v=v+1) { fork((print(v); v=v*readHeap(a))) }; print(readHeap(a)))
+Symbol Tables:
+a->(0: int)
+
+Output:
+File Table:
+Heap:
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(for(v=0;v<3;v=v+1) { fork((print(v); v=v*readHeap(a))) }; print(readHeap(a)))
+Symbol Tables:
+a->(1: int)
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(for(v=0;v<3;v=v+1) { fork((print(v); v=v*readHeap(a))) }; print(readHeap(a)))
+Symbol Tables:
+a->(1: int)
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+for(v=0;v<3;v=v+1) { fork((print(v); v=v*readHeap(a))) }
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+for(v=0;v<3;v=v+1) { fork((print(v); v=v*readHeap(a))) }
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(int v; (v=0; while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}))
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(int v; (v=0; while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}))
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+int v
+(v=0; while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)})
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+int v
+(v=0; while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)})
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(v=0; while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)})
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(v=0; while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)})
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+v=0
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+v=0
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(fork((print(v); v=v*readHeap(a))); v=v+1)
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(fork((print(v); v=v*readHeap(a))); v=v+1)
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+fork((print(v); v=v*readHeap(a)))
+v=v+1
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+fork((print(v); v=v*readHeap(a)))
+v=v+1
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+v=v+1
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:2):
+Execution Stack:
+(print(v); v=v*readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+v=v+1
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:2):
+Execution Stack:
+(print(v); v=v*readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:2):
+Execution Stack:
+print(v)
+v=v*readHeap(a)
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:2):
+Execution Stack:
+print(v)
+v=v*readHeap(a)
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(fork((print(v); v=v*readHeap(a))); v=v+1)
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:2):
+Execution Stack:
+v=v*readHeap(a)
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(fork((print(v); v=v*readHeap(a))); v=v+1)
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:2):
+Execution Stack:
+v=v*readHeap(a)
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+fork((print(v); v=v*readHeap(a)))
+v=v+1
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:2):
+Execution Stack:
+Symbol Tables:
+a->(1: int)
+v->0
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+fork((print(v); v=v*readHeap(a)))
+v=v+1
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+v=v+1
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:3):
+Execution Stack:
+(print(v); v=v*readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+v=v+1
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:3):
+Execution Stack:
+(print(v); v=v*readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:3):
+Execution Stack:
+print(v)
+v=v*readHeap(a)
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:3):
+Execution Stack:
+print(v)
+v=v*readHeap(a)
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+0
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(fork((print(v); v=v*readHeap(a))); v=v+1)
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:3):
+Execution Stack:
+v=v*readHeap(a)
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+(fork((print(v); v=v*readHeap(a))); v=v+1)
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:3):
+Execution Stack:
+v=v*readHeap(a)
+Symbol Tables:
+a->(1: int)
+v->1
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+fork((print(v); v=v*readHeap(a)))
+v=v+1
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:3):
+Execution Stack:
+Symbol Tables:
+a->(1: int)
+v->20
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+fork((print(v); v=v*readHeap(a)))
+v=v+1
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+v=v+1
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:4):
+Execution Stack:
+(print(v); v=v*readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+v=v+1
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:4):
+Execution Stack:
+(print(v); v=v*readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->3
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:4):
+Execution Stack:
+print(v)
+v=v*readHeap(a)
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+while(v<3) {(fork((print(v); v=v*readHeap(a))); v=v+1)}
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->3
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:4):
+Execution Stack:
+print(v)
+v=v*readHeap(a)
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+1
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->3
+
+Output:
+0
+1
+2
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:4):
+Execution Stack:
+v=v*readHeap(a)
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+1
+2
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+print(readHeap(a))
+Symbol Tables:
+a->(1: int)
+v->3
+
+Output:
+0
+1
+2
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:4):
+Execution Stack:
+v=v*readHeap(a)
+Symbol Tables:
+a->(1: int)
+v->2
+
+Output:
+0
+1
+2
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:1):
+Execution Stack:
+Symbol Tables:
+a->(1: int)
+v->3
+
+Output:
+0
+1
+2
+20
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
+>>Program State(Id:4):
+Execution Stack:
+Symbol Tables:
+a->(1: int)
+v->40
+
+Output:
+0
+1
+2
+20
+File Table:
+Heap:
+1->20
+Latch Table:
+Lock Table:
+Procedure Table:
+product->[a, b]=(int v; (v=a*b; print(v)))sum->[a, b]=(int v; (v=a+b; print(v)))
